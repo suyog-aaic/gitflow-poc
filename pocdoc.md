@@ -86,3 +86,12 @@ Choose feature branch to finish (1) 1: : 1
 [INFO] Deleting remote branch 'feature/test' from 'origin'.
 [WARNING] There were some problems deleting remote branch 'feature/test' from 'origin'.
 [INFO] Deleting 'feature/test' branch.
+mvn gitflow:hotfix-start  --> 
+Checking for uncommitted changes.
+[INFO] Checking out 'main' branch.
+[INFO] Fetching remote from 'origin'.
+[INFO] Comparing local branch 'main' with remote 'origin/main'.
+What is the hotfix version? [0.0.4]: 0.0.5
+[INFO] Creating a new branch 'hotfix/0.0.5' from 'main' and checking it out.
+[INFO] Updating version(s) to '0.0.5'.
+[INFO] Committing changes.
