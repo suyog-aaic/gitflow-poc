@@ -120,3 +120,40 @@ mvn gitflow:support-start
 
 [INFO] Creating a new branch 'support/0.0.2' from '0.0.2' and checking it out.
 [INFO] Pushing 'support/0.0.2' branch to 'origin'.
+
+
+
+aaic@AAICs-MacBook-Pro gitflow-poc % mvn gitflow:release       
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< com.houari:Calculator >------------------------
+[INFO] Building Calculator 0.0.5
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- gitflow:1.20.0:release (default-cli) @ Calculator ---
+[INFO] Checking for uncommitted changes.
+[INFO] Fetching remote from 'origin'.
+[INFO] Comparing local branch 'develop' with remote 'origin/develop'.
+[INFO] Fetching remote from 'origin'.
+[INFO] Comparing local branch 'main' with remote 'origin/main'.
+[INFO] Checking out 'develop' branch.
+[INFO] Checking for SNAPSHOT versions in dependencies.
+[INFO] Cleaning and testing the project.
+What is release version? [0.0.5]: 1.0.1
+[INFO] Updating version(s) to '1.0.1'.
+[INFO] Committing changes.
+[INFO] Checking out 'main' branch.
+[INFO] Merging (--no-ff) 'develop' branch.
+[INFO] Creating '1.0.1' tag.
+[INFO] Checking out 'develop' branch.
+[INFO] Merging (--no-ff) '1.0.1' branch.
+[INFO] Updating version(s) to '1.0.2-SNAPSHOT'.
+[INFO] Committing changes.
+[INFO] Pushing 'main' branch to 'origin'.
+[INFO] Pushing 'develop' branch to 'origin'.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  28.023 s
+[INFO] Finished at: 2023-10-20T15:03:32+05:30
