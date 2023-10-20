@@ -115,3 +115,8 @@ Fetching remote from 'origin'.
 [INFO] Updating version(s) to '0.0.5'.
 [INFO] Committing changes.
 
+
+mvn gitflow:support-start 
+
+[INFO] Creating a new branch 'support/0.0.2' from '0.0.2' and checking it out.
+[INFO] Pushing 'support/0.0.2' branch to 'origin'.
