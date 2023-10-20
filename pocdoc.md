@@ -31,3 +31,15 @@ mvn gitflow:release-finish  --->
 [INFO] Deleting remote branch 'release/0.0.2' from 'origin'.
 [WARNING] There were some problems deleting remote branch 'release/0.0.2' from 'origin'.
 [INFO] Deleting 'release/0.0.2' branch.
+
+
+
+mvn gitflow:hotfix-start  --> 
+Checking for uncommitted changes.
+[INFO] Checking out 'main' branch.
+[INFO] Fetching remote from 'origin'.
+[INFO] Comparing local branch 'main' with remote 'origin/main'.
+What is the hotfix version? [0.0.4]: 0.0.5
+[INFO] Creating a new branch 'hotfix/0.0.5' from 'main' and checking it out.
+[INFO] Updating version(s) to '0.0.5'.
+[INFO] Committing changes.
