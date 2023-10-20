@@ -57,3 +57,14 @@ What is release version? [0.0.3]: 0.0.3
 [INFO] Committing changes.
 [INFO] Pushing 'main' branch to 'origin'.
 [INFO] Pushing 'develop' branch to 'origin'.
+
+
+mvn gitflow:feature-start --->
+
+[INFO] Checking for uncommitted changes.
+[INFO] Fetching remote from 'origin'.
+[INFO] Comparing local branch 'develop' with remote 'origin/develop'.
+What is a name of feature branch? feature/: test
+[INFO] Creating a new branch 'feature/test' from 'develop' and checking it out.
+[INFO] Updating version(s) to '0.0.4-test-SNAPSHOT'.
+[INFO] Committing changes.
