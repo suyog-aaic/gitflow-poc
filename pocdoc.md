@@ -1,1 +1,2 @@
-mvn gitflow:release-start ---> needs develop (why???)
+mvn gitflow:release-start ---> 
+
