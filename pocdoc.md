@@ -95,3 +95,23 @@ What is the hotfix version? [0.0.4]: 0.0.5
 [INFO] Creating a new branch 'hotfix/0.0.5' from 'main' and checking it out.
 [INFO] Updating version(s) to '0.0.5'.
 [INFO] Committing changes.
+
+
+
+
+mvn gitflow:hotfix-finish ---> 
+Fetching remote from 'origin'.
+[INFO] Fetching remote from 'origin'.
+[INFO] Comparing local branch 'develop' with remote 'origin/develop'.
+[INFO] Fetching remote from 'origin'.
+[INFO] Comparing local branch 'main' with remote 'origin/main'.
+[INFO] Fetching remote from 'origin'.
+[INFO] Checking out 'hotfix/0.0.5' branch.
+[INFO] Cleaning and testing the project.
+[INFO] Checking out 'main' branch.
+[INFO] Merging (--no-ff) 'hotfix/0.0.5' branch.
+[INFO] Creating '0.0.5' tag.
+[INFO] Checking out 'develop' branch.
+[INFO] Updating version(s) to '0.0.5'.
+[INFO] Committing changes.
+
