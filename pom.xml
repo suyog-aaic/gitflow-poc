@@ -39,7 +39,6 @@
                     <gitFlowConfig>
                         <productionBranch>main</productionBranch>
                         <developmentBranch>develop</developmentBranch>
-                        <origin>origin</origin>
                     </gitFlowConfig>
                     <commitMessages>
                         <!-- since 1.2.1, see Customizing commit messages -->
