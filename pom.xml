@@ -6,7 +6,7 @@
 
     <groupId>com.houari</groupId>
     <artifactId>Calculator</artifactId>
-    <version>1.0.0</version>
+    <version>0.0.0</version>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
@@ -39,7 +39,6 @@
                     <gitFlowConfig>
                         <productionBranch>main</productionBranch>
                         <developmentBranch>develop</developmentBranch>
-                        <origin>origin</origin>
                     </gitFlowConfig>
                     <commitMessages>
                         <!-- since 1.2.1, see Customizing commit messages -->
