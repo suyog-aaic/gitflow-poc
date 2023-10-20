@@ -68,3 +68,21 @@ What is a name of feature branch? feature/: test
 [INFO] Creating a new branch 'feature/test' from 'develop' and checking it out.
 [INFO] Updating version(s) to '0.0.4-test-SNAPSHOT'.
 [INFO] Committing changes.
+
+mvn gitflow:feature-finish   --->
+Feature branches:
+1. feature/test
+Choose feature branch to finish (1) 1: : 1
+[INFO] Fetching remote from 'origin'.
+[INFO] Fetching remote from 'origin'.
+[INFO] Comparing local branch 'develop' with remote 'origin/develop'.
+[INFO] Checking out 'feature/test' branch.
+[INFO] Cleaning and testing the project.
+[INFO] Updating version(s) to '0.0.4-SNAPSHOT'.
+[INFO] Committing changes.
+[INFO] Checking out 'develop' branch.
+[INFO] Merging (--no-ff) 'feature/test' branch.
+[INFO] Pushing 'develop' branch to 'origin'.
+[INFO] Deleting remote branch 'feature/test' from 'origin'.
+[WARNING] There were some problems deleting remote branch 'feature/test' from 'origin'.
+[INFO] Deleting 'feature/test' branch.
