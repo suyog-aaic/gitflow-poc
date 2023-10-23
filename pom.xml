@@ -39,6 +39,7 @@
                     <gitFlowConfig>
                         <productionBranch>main</productionBranch>
                         <developmentBranch>develop</developmentBranch>
+                        <supportBranchPrefix>support/hotfix-</supportBranchPrefix>
                     </gitFlowConfig>
                     <commitMessages>
                         <!-- since 1.2.1, see Customizing commit messages -->
