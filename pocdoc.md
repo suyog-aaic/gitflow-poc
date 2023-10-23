@@ -157,3 +157,9 @@ What is release version? [0.0.5]: 1.0.1
 [INFO] ------------------------------------------------------------------------
 [INFO] Total time:  28.023 s
 [INFO] Finished at: 2023-10-20T15:03:32+05:30
+
+
+
+gitflow:release
+mvn gitflow:support-start
+mvn gitflow:version-update -DpushRemote=true
